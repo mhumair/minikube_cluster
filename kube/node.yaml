@@ -27,6 +27,6 @@ spec:
       containers:
         - name: node
           image: humair/node-web-app
-          imagePullPolicy: Never
+          imagePullPolicy: Always
           ports:
             - containerPort: 8080
